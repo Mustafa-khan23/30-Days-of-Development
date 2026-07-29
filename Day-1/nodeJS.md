@@ -18,4 +18,12 @@
 - Non-blocking I/O for efficient I/O-heavy operations.
 - Networking support with TCP/UDP sockets for lower-level network applications.
 
+## Node REPL
+- Streamlines an interactive shell for executing JavaScript code.
+- Ideal for quick testing and debugging code snippets on the fly.
+- Built-in help available through `.help`.
+- Supports session management with `.save` and `.load`.
+- Provides direct access to Node.js APIs for experimentation.
+- Customizable prompt and behavior settings.
+
 > Node.js is a runtime, not a framework. It extends JavaScript beyond the browser so it can power backend servers.
