@@ -29,3 +29,15 @@ function greetMexican(parameter = "Hola") {
 }
 
 greetMexican();
+
+//----------------------------------------------------------------------
+
+//rest parameters - It is like input N number of parameters or values
+
+function add(...numbers) {
+  console.log(numbers);
+}
+
+add(10, 20, 30, 40);
+
+//----------------------------------------------------------------------
