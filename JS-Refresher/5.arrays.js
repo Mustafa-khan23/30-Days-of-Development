@@ -15,7 +15,7 @@ array.push(10); //add the element in the last index of the array
 array.shift(); //removes the first element of the array
 
 //4. unshift
-array.unshift(5); //add the given element to the fist position of array
+array.unshift(10); //add the given element to the fist position of array
 
 //5. splice
 array.splice(2, 5, 1, 2, 3); /*removes array elements from 2-5th index 
@@ -87,5 +87,11 @@ let someArr = array.some((element) => element < 5);
 
 //7. reduce();
 let arrayRed = array.reduce((acc, curr) => acc + curr);
+
+const max = array.reduce((acc, curr) => {
+  return curr > acc ? curr : acc;
+}, array[0]);
+
+console.log(max);
 
 //----------------------------------------------------------------------
